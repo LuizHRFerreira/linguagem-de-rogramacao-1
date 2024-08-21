@@ -11,24 +11,24 @@ package Exercicio06;
 public class Converter {
 
 	// Criei o atributo celsios dentro da classe Converter
-	private int celsius;
+	private int fahrenheit;
 
 	// Criei um contrutor chamado Converter que vai adicionar o valor que eu
-	// destinar ao objeto à variavel celsios
-	public Converter(int celsios) {
-		this.celsius = celsios;
+	// destinar ao objeto à variavel fahrenheit
+	public Converter(int fahrenheit) {
+		this.fahrenheit = fahrenheit;
 	}
 
-	// Criei um método chamado Fahrenheit que vai utilizar a formula para converter Celsius para Fahrenheit
-	public double Fahrenheit() {
-		return (celsius * 1.8) + 32;
+	// Criei um método chamado Celsius que vai utilizar a formula para converter fahrenheit para Celsius
+	public double Celsius() {
+		return (fahrenheit-32)*5/9;
 	}
 
 	//Aqui criei o main que vai criar um objeto e exibindo ele na tela
 	public static void main(String[] Args) {
-		//Criei objeto que chamei de resultado da classe Converter e acionei o contrutor para colocar o valor de 100 no atributo celsius
+		//Criei objeto que chamei de resultado da classe Converter e acionei o contrutor para colocar o valor de 100 no atributo fahrenheit
 		Converter resultado = new Converter(167);
 		//Exibe o resultado da conversao
-		System.out.println("O valor de " + resultado.celsius + "ºC é igual a " + resultado.Fahrenheit() + "ºF");
+		System.out.println("O valor de " + resultado.fahrenheit + "ºF é igual a " + resultado.Celsius() + "ºC");
 	}
 }
