@@ -4,6 +4,8 @@
 
 package Exercicio17;
 
+import java.util.Scanner;
+
 //Criação da classe media e vinculada a ela todos os atributos que serão as notas a serem coletadas
 public class media {
 	private float prova1;
@@ -23,6 +25,7 @@ public class media {
 		this.extra = extra;
 		this.substituta = substituta;
 	}
+
 	// Método nota é o calculo do valor da nota
 	public double nota() {
 		// Bolco 1: A prova1 vale 60% do total da nota, por isso multiplica por 0.6 e a
@@ -55,19 +58,49 @@ public class media {
 
 	// Sera utilizado o método main para criação do objeto e exibição do resultado
 	public static void main(String[] Args) {
-		//Criação do objeto Media, foi chamada o construtor media e foi ditado os valores
-		media Media = new media(4, 5, 8, 8, 2, 8);
-		//Exibe os resultados
-		System.out.println("A média final será de " + Media.nota());
-		System.out.println("============================");
-		System.out.println("Valores informados:");
-		System.out.println("- Prova 1: " + Media.prova1);
-		System.out.println("- Exercicio 1: " + Media.exercicio1);
-		System.out.println("- Exercicio 2: " + Media.exercicio2);
-		System.out.println("- API: " + Media.api);
-		System.out.println("- Extra: " + Media.extra);
-		System.out.println("- Substituta: " + Media.substituta);
 
+		// Criado o scanner
+		Scanner read = new Scanner(System.in);
+
+		// Vai mostrar o enunciado e pedir que o usuário deigite a resposta para a
+		// primeira variavel
+		System.out.print("Informe a nota da Prova 1: ");
+		int NotaProva1 = read.nextInt();
+
+		// Vai mostrar o enunciado e pedir que o usuário deigite a resposta para a
+		// segunda variavel
+		System.out.print("Informe a nota do Exercicio 1: ");
+		int NotaExercicio1 = read.nextInt();
+
+		// Vai mostrar o enunciado e pedir que o usuário deigite a resposta para a
+		// terceira variavel
+		System.out.print("Informe a nota do Exercicio 2: ");
+		int NotaExercicio2 = read.nextInt();
+
+		// Vai mostrar o enunciado e pedir que o usuário deigite a resposta para a
+		// quarta variavel
+		System.out.print("Informe a nota da API: ");
+		int NotaApi = read.nextInt();
+
+		// Vai mostrar o enunciado e pedir que o usuário deigite a resposta para a
+		// quinta variavel
+		System.out.print("Informe a nota Extra: ");
+		int NotaExtra = read.nextInt();
+
+		// Vai mostrar o enunciado e pedir que o usuário deigite a resposta para a
+		// sexta variavel
+		System.out.print("Informe a nota da prova substituta: ");
+		int NotaSubstituta = read.nextInt();
+
+		System.out.println("");
+		
+		// Criação do objeto Media, foi chamada o construtor media e foi ditado os
+		// valores
+		media Media = new media(NotaProva1, NotaExercicio1, NotaExercicio2, NotaApi, NotaExtra, NotaSubstituta);
+		// Exibe os resultados
+		System.out.println("A média final será de " + Media.nota());
+	
+		read.close();
 	}
 
 }

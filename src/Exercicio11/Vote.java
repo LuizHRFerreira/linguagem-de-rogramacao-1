@@ -3,6 +3,8 @@
 
 package Exercicio11;
 
+import java.util.Scanner;
+
 //Criada a classe Vote e adicionado os dois atributos que receberão o ano de nascimento e o ano atual 
 public class Vote {
 	private int year;
@@ -21,8 +23,23 @@ public class Vote {
 
 	// utilizarei o método main para exibir as respostas
 	public static void main(String[] Args) {
+
+		// Criado o scanner
+		Scanner read = new Scanner(System.in);
+
+		// Vai mostrar o enunciado e pedir que o usuário deigite a resposta para a
+		// primeira variavel
+		System.out.print("Informe o ano do nascimento: ");
+		int byrth = read.nextInt();
+
+		// Vai mostrar o enunciado e pedir que o usuário deigite a resposta para a
+		// segunda variavel
+		System.out.print("Informe ano atual: ");
+		int year = read.nextInt();
+
 		// criado o objeto e vinculado os valores utilizando o construtor
-		Vote majority = new Vote(1998, 1947);
+		Vote majority = new Vote(byrth, year);
+		
 		// Se a idade for maior ou igual a 16, segue o IF
 		if (majority.age() >= 16) {
 			System.out.println("PODERÁ VOTAR ESTE ANO!!");
@@ -30,5 +47,6 @@ public class Vote {
 		} else {
 			System.out.println("NÃO PODERÁ VOTAR ESTE ANO!!");
 		}
+		read.close();
 	}
 }

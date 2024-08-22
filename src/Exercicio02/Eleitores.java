@@ -2,7 +2,7 @@
 
 package Exercicio02;
 
-//Cria classe que eu chamei de Eleitores
+//Cria classe que eu chamei de Eleitores. Criei os atributos que vão coletar os numeros que serão informados
 
 public class Eleitores {
 
@@ -45,13 +45,13 @@ public class Eleitores {
  public static void main(String[] args) {
 
 //Criei o objeto Eleição seguindo a classe de Eleitores e dei valores aos atributos
-     Eleitores Eleicao = new Eleitores(100, 50, 20, 30);
+     Eleitores Eleicao = new Eleitores(100, 50, 25, 30);
 
 //Printa em linhas diferentes os resultados respectivos
      System.out.println("Total de eleitores: " + Eleicao.total);
-     System.out.println("Votos validos: "+ Eleicao.porcentagemValidos() +"%"); 
-     System.out.println("Votos brancos: "+ Eleicao.porcentagemBrancos() +"%"); 
-     System.out.println("Votos nulos: "+ Eleicao.porcentagemNulos() +"%"); 
+     System.out.println("Votos validos: "+ String.format("%.2f",Eleicao.porcentagemValidos()) +"%"); 
+     System.out.println("Votos brancos: "+ String.format("%.2f",Eleicao.porcentagemBrancos()) +"%"); 
+     System.out.println("Votos nulos: " + String.format("%.2f",Eleicao.porcentagemNulos()) +"%"); 
 
  }
 

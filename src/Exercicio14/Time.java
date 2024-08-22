@@ -4,6 +4,8 @@
 
 package Exercicio14;
 
+import java.util.Scanner;
+
 // Criação da classe Time aonde definiremos os atributos
 public class Time {
 	private int start;
@@ -30,9 +32,25 @@ public class Time {
 
 	// Utilização do mérodo mais para exibir o resultado
 	public static void main(String[] Args) {
+		
+		// Criado o scanner
+		Scanner read = new Scanner(System.in);
+
+		// Vai mostrar o enunciado e pedir que o usuário deigite a resposta para a
+		// primeira variavel
+		System.out.print("Informe a hora de início da partida: ");
+		int Start = read.nextInt();
+
+		// Vai mostrar o enunciado e pedir que o usuário deigite a resposta para a
+		// segunda variavel
+		System.out.print("Informe a hora do término da partida: ");
+		int End = read.nextInt();
+
 		// Criação do objeto chamado de game
-		Time game = new Time(19, 15);
+		Time game = new Time(Start,End);
 		System.out.println("O jogo teve a duração de " + game.stopwatch() + " Horas");
+
+		read.close();
 	}
 
 }

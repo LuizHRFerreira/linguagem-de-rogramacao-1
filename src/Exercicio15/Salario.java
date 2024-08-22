@@ -6,6 +6,8 @@
 
 package Exercicio15;
 
+import java.util.Scanner;
+
 // Criada a classe Salario e atribuida atributos que são informações que receberemos do objeto
 public class Salario {
 	private float HrsTrab;
@@ -36,7 +38,26 @@ public class Salario {
 	}
 
 	public static void main(String[] Args) {
-		Salario SalLiq = new Salario(140, 20);
+		
+		// Criado o scanner
+		Scanner read = new Scanner(System.in);
+
+		// Vai mostrar o enunciado e pedir que o usuário deigite a resposta para a
+		// primeira variavel
+		System.out.print("Informe o total de horas trabalhadas: ");
+		int HrsTrab = read.nextInt();
+
+		// Vai mostrar o enunciado e pedir que o usuário deigite a resposta para a
+		// segunda variavel
+		System.out.print("Informe o valor que o colaboradore recebe por horas: ");
+		int ValHora = read.nextInt();
+
+		// Criado o objeto e vinculado os valores lidos para os atributos do objeto
+		Salario SalLiq = new Salario(HrsTrab, ValHora);
+		
+		System.out.println("");
 		System.out.println("O salário total do colaborador será de R$"+ String.format("%.2f",SalLiq.ValSal()));
+		
+		read.close();
 	}
 }

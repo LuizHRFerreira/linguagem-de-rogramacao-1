@@ -22,9 +22,9 @@ public static void main(String[] Args){
     
     Salario Valor = new Salario(100,10);
     
-    System.out.println("O salario atual: R$" + Valor.Salario);
-    System.out.println("Porcentagem do reajuste: " + Valor.porcAjuste + "%");
-    System.out.println("Valor do novo salario: R$" + Valor.novSal());
+    System.out.println("O salario atual: R$" + String.format("%.2f",Valor.Salario));
+    System.out.println("Porcentagem do reajuste: " + String.format("%.2f",Valor.porcAjuste) + "%");
+    System.out.println("Valor do novo salario: R$" + String.format("%.2f",Valor.novSal()));
     
 }
 
