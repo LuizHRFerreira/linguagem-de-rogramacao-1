@@ -1,0 +1,133 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Age",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio01.Age",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "Eleitores",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio02.Eleitores",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "Salario",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio03.Salario",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "ValCar",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio04.ValCar",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "SalarioFinal",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio05.SalarioFinal",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "Converter",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio06.Converter",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "MaiorMenor",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio07.MaiorMenor",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "PositivoNegativo",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio08.PositivoNegativo",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "Apples",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio09.Apples",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "Aprovado",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio10.Aprovado",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "Vote",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio11.Vote",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "greaterValue",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio12.greaterValue",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "ascending0rder",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio13.ascending0rder",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "Time",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio14.Time",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "Salario(1)",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio15.Salario",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "BalancoTrimestre",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio16.BalancoTrimestre",
+            "projectName": "LinguagemDeProgramacao1"
+        },
+        {
+            "type": "java",
+            "name": "media",
+            "request": "launch",
+            "mainClass": "LinguagemDeProgramacao1/Exercicio17.media",
+            "projectName": "LinguagemDeProgramacao1"
+        }
+    ]
+}

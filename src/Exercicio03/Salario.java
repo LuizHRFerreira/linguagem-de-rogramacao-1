@@ -3,6 +3,9 @@
 package Exercicio03;
 
 // Criei a classe Salario. Aqui eu dou os atributos que o objeto vai ter que ter, nesse caso Salario e porcAjuste, ambos numeros racionais
+
+import java.util.Scanner;
+
 public class Salario {
 
 private float Salario;
@@ -20,12 +23,24 @@ public float novSal(){
 
 public static void main(String[] Args){
     
-    Salario Valor = new Salario(100,10);
+    Scanner read = new Scanner(System.in);
     
-    System.out.println("O salario atual: R$" + String.format("%.2f",Valor.Salario));
-    System.out.println("Porcentagem do reajuste: " + String.format("%.2f",Valor.porcAjuste) + "%");
+    System.out.println("============= Calculo de reajuste salárial =============");  
+    System.out.println("Este programa irá recalcular o novo valor salarial do colaborador baseado no salario atual e a aliquota de reajuste.");  
+    System.out.println("");
+
+    System.out.print("Informe o valor do salário atual: R$");
+    float salario = read.nextFloat();
+
+    System.out.print("Informe a aliquota de reajuste: ");
+    float porcAjuste = read.nextFloat();
+
+    Salario Valor = new Salario(salario,porcAjuste);
+    
+    System.out.println("");
     System.out.println("Valor do novo salario: R$" + String.format("%.2f",Valor.novSal()));
     
+    read.close();
 }
 
 }

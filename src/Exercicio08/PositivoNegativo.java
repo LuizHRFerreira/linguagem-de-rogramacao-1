@@ -25,5 +25,7 @@ public class PositivoNegativo {
 		else {
 			System.out.println("É NEGATIVO");
 		}
+
+		read.close();
 	}
 }

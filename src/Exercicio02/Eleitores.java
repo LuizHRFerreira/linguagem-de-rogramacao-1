@@ -2,6 +2,8 @@
 
 package Exercicio02;
 
+import java.util.Scanner;
+
 //Cria classe que eu chamei de Eleitores. Criei os atributos que vão coletar os numeros que serão informados
 
 public class Eleitores {
@@ -44,15 +46,36 @@ public class Eleitores {
 
  public static void main(String[] args) {
 
+          Scanner read = new Scanner(System.in);
+
+          System.out.println("============= Apuração de votos validos =============");  
+          System.out.println("Este programa irá coletar e apurar o total de votos.");  
+          System.out.println("");
+
+          System.out.print("Informe o total de votos: ");
+          int total = read.nextInt();
+        
+          System.out.print("Informe o total de votos validos: ");
+          int validos = read.nextInt();
+
+          System.out.print("Informe o total de votos brancos: ");
+          int brancos = read.nextInt();
+
+          System.out.print("Informe o total de votos nulos: ");
+          int nulos = read.nextInt();
+
 //Criei o objeto Eleição seguindo a classe de Eleitores e dei valores aos atributos
-     Eleitores Eleicao = new Eleitores(100, 50, 25, 30);
+     Eleitores Eleicao = new Eleitores(total, validos, brancos, nulos);
 
 //Printa em linhas diferentes os resultados respectivos
-     System.out.println("Total de eleitores: " + Eleicao.total);
-     System.out.println("Votos validos: "+ String.format("%.2f",Eleicao.porcentagemValidos()) +"%"); 
-     System.out.println("Votos brancos: "+ String.format("%.2f",Eleicao.porcentagemBrancos()) +"%"); 
-     System.out.println("Votos nulos: " + String.format("%.2f",Eleicao.porcentagemNulos()) +"%"); 
-
+     System.out.println("");
+     System.out.println(" ________________________");
+     System.out.println("|Total de votos| " + Eleicao.total + " |");
+     System.out.println("|--------------|--------|");
+     System.out.println("|Votos validos | "+ String.format("%.2f",Eleicao.porcentagemValidos()) +"%  |"); 
+     System.out.println("|Votos brancos | "+ String.format("%.2f",Eleicao.porcentagemBrancos()) +"%  |"); 
+     System.out.println("| Votos nulos  | " + String.format("%.2f",Eleicao.porcentagemNulos()) +"%  |"); 
+     System.out.println("|_______________________|");
  }
 
 }
