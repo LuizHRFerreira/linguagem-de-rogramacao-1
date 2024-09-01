@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f50b2f3-6598-4bea-924a-6d8ca217d91f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ListaDeAtividades2/Flor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinguagemDeProgramacao1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Desktop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio01/Age.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio01/Exercicio 1 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio02/Eleitores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio02/Exercicio 2 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio03/Exercicio 3 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio03/Salario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio04/Exercicio 4 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio04/ValCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio05/Exercicio 5 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio05/SalarioFinal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio06/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio06/Exercicio 6 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio07/Exercicio 7 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio07/MaiorMenor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio08/Exercicio 8 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio08/PositivoNegativo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio09/Apples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio09/Exercicio 9 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio10/Aprovado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio10/Exercicio 10 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio11/Exercicio 11 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio11/Vote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio12/Exercicio 12 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio12/greaterValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio13/Exercicio 13 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio13/ascending0rder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio14/Exercicio 14 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio14/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio15/Exercicio 15 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio15/Salario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio16/BalancoTrimestre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio16/Exercicio 16 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio17/Exercicio 17 - Teste de mesa.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/Exercicio17/media.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaDeAtividades1/src/out/production/Desktop/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2lRcWw8uiFAblzRAzOezBjEjJJw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Age.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Luiz/Documents/GitHub/LinguagemDeProgramacao1/ListaDeAtividades1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Luiz\Documents\GitHub\LinguagemDeProgramacao1\ListaDeAtividades2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Age" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio01.Age" />
+      <module name="LinguagemDeProgramacao1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercicio01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f50b2f3-6598-4bea-924a-6d8ca217d91f" name="Changes" comment="" />
+      <created>1725146368386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725146368386</updated>
+      <workItem from="1725146369611" duration="351000" />
+      <workItem from="1725153102168" duration="348000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
