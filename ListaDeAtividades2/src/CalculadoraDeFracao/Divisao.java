@@ -30,7 +30,6 @@ public class Divisao {
          scanner.nextLine();
 
          System.out.println("");
-         scanner.close();
 	}
 
 }

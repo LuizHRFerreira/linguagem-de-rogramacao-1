@@ -28,7 +28,6 @@ public class Soma {
          } 
         		 
          System.out.println("Resultado da soma: " + novoNumerador + "/" + novoDenominador);
-         scanner.close();
 	}
 
 }

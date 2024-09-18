@@ -29,7 +29,6 @@ public class Subtracao {
          } 
          
          System.out.println("Resultado da soma: " + novoNumerador + "/" + novoDenominador);
-         scanner.close();
 	}
 
 }

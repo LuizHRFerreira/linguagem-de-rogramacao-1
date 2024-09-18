@@ -1,5 +1,7 @@
 package Menu;
 
+import java.util.Scanner;
+
 import Classes.Album;
 import Classes.Animal;
 import Classes.Bola;
@@ -10,7 +12,6 @@ import Classes.Flor;
 import Classes.InstrumentoMusical;
 import Classes.Pessoa;
 import Classes.TimeDeFutebol;
-import java.util.Scanner;
 
 public class Menu {
 
@@ -37,6 +38,7 @@ public class Menu {
             System.out.println(" [00] Finalizar programa");
             System.out.println("===========================================================");
             System.out.print("Resposta: ");
+            System.out.println("");
 
             // Verifica se a entrada é um número inteiro válido
             while (!scanner.hasNextInt()) {

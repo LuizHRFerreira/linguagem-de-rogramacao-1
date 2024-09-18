@@ -23,7 +23,14 @@ public class TimeDeFutebol {
     }
 
     public String contratar() {
-        return "O time contratou um novo jogador";
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Qual o jogador será contratado?");
+        scanner.nextLine();
+        System.out.println("Qual o salário?");
+        scanner.nextLine();
+        System.out.println("");
+        System.out.println("Jogador Contratado!!");
+        return "";
     }
     
     public static void executar() {
@@ -92,6 +99,5 @@ public class TimeDeFutebol {
         } while (subOption != 0);
         
         System.out.println("Voltando ao menu principal...");
-        scanner.close();
     }
 }

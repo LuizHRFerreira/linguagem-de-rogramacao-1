@@ -30,7 +30,6 @@ public class Multiplicacao {
          scanner.nextLine();
 
          System.out.println("");
-         scanner.close();
 	}
 
 }

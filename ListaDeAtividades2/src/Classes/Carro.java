@@ -92,7 +92,6 @@ public class Carro {
         } while (subOption != 0);
         
         System.out.println("Voltando ao menu principal...");
-        scanner.close();
     }
 }
 

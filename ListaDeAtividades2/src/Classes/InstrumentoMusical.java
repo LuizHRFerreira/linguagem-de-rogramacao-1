@@ -92,6 +92,5 @@ public class InstrumentoMusical {
         } while (subOption != 0);
         
         System.out.println("Voltando ao menu principal...");
-        scanner.close();
     }
 }
