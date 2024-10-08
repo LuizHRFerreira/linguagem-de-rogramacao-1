@@ -29,4 +29,7 @@ module org.example.listadeatividades {
 
     opens org.example.listadeatividades3.Pessoa to javafx.fxml;
     exports org.example.listadeatividades3.Pessoa;
+
+    opens org.example.listadeatividades3.TimeFutebol to javafx.fxml;
+    exports org.example.listadeatividades3.TimeFutebol;
 }
