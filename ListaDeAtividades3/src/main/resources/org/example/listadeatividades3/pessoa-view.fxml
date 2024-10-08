@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="573.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.listadeatividades3.Pessoa.PessoaController">
+   <children>
+      <Button fx:id="cadastrar_pessoa" layoutX="388.0" layoutY="432.0" mnemonicParsing="false" onAction="#cadastrarPessoa" prefHeight="25.0" prefWidth="141.0" text="Cadastrar" />
+      <Label fx:id="Titulo" layoutX="183.0" layoutY="35.0" text="Cadastrar Pessoa" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="250.0" fitWidth="478.0" layoutX="48.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Pessoa.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nome_pessoa" layoutX="94.0" layoutY="342.0" prefHeight="25.0" prefWidth="428.0" />
+      <DatePicker fx:id="data_nascimento" layoutX="94.0" layoutY="384.0" prefHeight="25.0" prefWidth="178.0" />
+      <TextField fx:id="genero_pessoa" layoutX="342.0" layoutY="384.0" prefHeight="25.0" prefWidth="184.0" />
+      <Label layoutX="296.0" layoutY="388.0" text="Gênero" />
+      <Label layoutX="48.0" layoutY="346.0" text="Nome" />
+      <Label layoutX="25.0" layoutY="377.0" prefHeight="38.0" prefWidth="62.0" text="Data de nascimento" textAlignment="RIGHT" wrapText="true" />
+   </children>
+</Pane>

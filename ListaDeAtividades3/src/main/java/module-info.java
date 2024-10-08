@@ -26,4 +26,7 @@ module org.example.listadeatividades {
 
     opens org.example.listadeatividades3.InstrumentoMusical to javafx.fxml;
     exports org.example.listadeatividades3.InstrumentoMusical;
+
+    opens org.example.listadeatividades3.Pessoa to javafx.fxml;
+    exports org.example.listadeatividades3.Pessoa;
 }
