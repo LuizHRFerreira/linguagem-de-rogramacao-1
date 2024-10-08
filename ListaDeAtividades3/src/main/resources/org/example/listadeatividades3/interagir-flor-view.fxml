@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="284.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.listadeatividades3.Flor.InteragirFlorController">
+   <children>
+      <Label fx:id="Titulo" layoutX="89.0" layoutY="37.0" text="Interagir com flor" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="especie_flor" layoutX="70.0" layoutY="111.0" text="especie_flor" />
+      <Label fx:id="preco_flor" layoutX="75.0" layoutY="143.0" text="preço_flor" />
+      <Label fx:id="cor_flor" layoutX="52.0" layoutY="174.0" text="cor_felino" />
+      <Label layoutX="24.0" layoutY="111.0" text="Especie:" />
+      <Label layoutX="24.0" layoutY="143.0" text="Preço: R$" />
+      <Label layoutX="27.0" layoutY="174.0" text="Cor:" />
+      <Button fx:id="nascer_flor" layoutX="180.0" layoutY="107.0" mnemonicParsing="false" onAction="#NascerFlor" prefHeight="25.0" prefWidth="190.0" text="Nascer" />
+      <Button fx:id="crescer_flor" layoutX="180.0" layoutY="151.0" mnemonicParsing="false" onAction="#crescerFlor" prefHeight="25.0" prefWidth="190.0" text="Crescer" />
+      <Button fx:id="cheirar_flor" layoutX="180.0" layoutY="190.0" mnemonicParsing="false" onAction="#cheirarFlor" prefHeight="25.0" prefWidth="190.0" text="Cheirar" />
+      <Label fx:id="resul" layoutX="27.0" layoutY="243.0" prefHeight="17.0" prefWidth="343.0" />
+   </children>
+</Pane>

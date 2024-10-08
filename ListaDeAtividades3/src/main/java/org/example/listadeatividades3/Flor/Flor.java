@@ -20,8 +20,8 @@ public class Flor {
             return "A flor cresceu!!";
         }
 
-        public static String reproduzir() {
-            return "A flor espalhou as suas sementes!!";
+        public static String cheirar() {
+            return "Você gostou muito do cheiro dessa flor!!";
         }
 
         public static String getEspecie() { return especie; }
