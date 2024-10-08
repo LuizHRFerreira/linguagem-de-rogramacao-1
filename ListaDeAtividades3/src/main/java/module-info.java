@@ -17,4 +17,7 @@ module org.example.listadeatividades {
 
     opens org.example.listadeatividades3.Casa to javafx.fxml;
     exports org.example.listadeatividades3.Casa;
+
+    opens org.example.listadeatividades3.Felino to javafx.fxml;
+    exports org.example.listadeatividades3.Felino;
 }
