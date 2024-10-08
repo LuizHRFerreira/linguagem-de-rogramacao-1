@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="284.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.listadeatividades3.InstrumentoMusical.TocarInstrumentoController">
+   <children>
+      <Label fx:id="Titulo" layoutX="84.0" layoutY="37.0" prefHeight="38.0" prefWidth="231.0" text="Tocar Instrumento" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="Modelo_instrumento" layoutX="70.0" layoutY="111.0" text="Modelo_instrumento" />
+      <Label fx:id="formato_instrumento" layoutX="75.0" layoutY="143.0" text="formato_instrumento" />
+      <Label fx:id="Afinação_intrumento" layoutX="78.0" layoutY="174.0" text="Afinação_intrumento" />
+      <Label layoutX="24.0" layoutY="111.0" text="Modelo:" />
+      <Label layoutX="24.0" layoutY="143.0" text="Formato:" />
+      <Label layoutX="27.0" layoutY="174.0" text="Afinação: " />
+      <Button fx:id="tocar_instrumento" layoutX="180.0" layoutY="107.0" mnemonicParsing="false" onAction="#tocarInstrumento" prefHeight="25.0" prefWidth="190.0" text="Tocar" />
+      <Button fx:id="afinar_instrumento" layoutX="180.0" layoutY="151.0" mnemonicParsing="false" onAction="#afinarInstrumento" prefHeight="25.0" prefWidth="190.0" text="Afinar" />
+      <Button fx:id="compor_instrumento" layoutX="180.0" layoutY="190.0" mnemonicParsing="false" onAction="#comporInstrumento" prefHeight="25.0" prefWidth="190.0" text="Compor" />
+      <Label fx:id="resul" layoutX="27.0" layoutY="243.0" prefHeight="17.0" prefWidth="343.0" />
+   </children>
+</Pane>
