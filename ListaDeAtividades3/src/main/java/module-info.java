@@ -1,4 +1,4 @@
-module org.example.listadeatividades3 {
+module org.example.listadeatividades {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -11,4 +11,7 @@ module org.example.listadeatividades3 {
 
     opens org.example.listadeatividades3.Bola to javafx.fxml;
     exports org.example.listadeatividades3.Bola;
+
+    opens org.example.listadeatividades3.Carro to javafx.fxml;
+    exports org.example.listadeatividades3.Carro;
 }
