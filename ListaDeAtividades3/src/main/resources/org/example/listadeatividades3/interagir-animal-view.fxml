@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="284.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.listadeatividades3.animal.InteragirAnimalController">
+   <children>
+      <Label fx:id="Titulo" layoutX="70.0" layoutY="36.0" text="Interagir com animal" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="Especie_animal" layoutX="70.0" layoutY="111.0" text="especie_animal" />
+      <Label fx:id="sexo_animal" layoutX="58.0" layoutY="143.0" text="sexo_animal" />
+      <Label fx:id="cor_animal" layoutX="52.0" layoutY="174.0" text="cor_animal" />
+      <Label layoutX="24.0" layoutY="111.0" text="Especie:" />
+      <Label layoutX="24.0" layoutY="143.0" text="Sexo:" />
+      <Label layoutX="27.0" layoutY="174.0" text="Cor:" />
+      <Button fx:id="animal_correr" layoutX="180.0" layoutY="107.0" mnemonicParsing="false" onAction="#correr" prefHeight="25.0" prefWidth="190.0" text="Correr" />
+      <Button fx:id="animal_comer" layoutX="180.0" layoutY="151.0" mnemonicParsing="false" onAction="#comer" prefHeight="25.0" prefWidth="190.0" text="Comer" />
+      <Button fx:id="animal_acordar" layoutX="180.0" layoutY="190.0" mnemonicParsing="false" onAction="#acordar" prefHeight="25.0" prefWidth="190.0" text="Acordar" />
+      <Label fx:id="resul" layoutX="27.0" layoutY="243.0" prefHeight="17.0" prefWidth="343.0" />
+   </children>
+</Pane>
