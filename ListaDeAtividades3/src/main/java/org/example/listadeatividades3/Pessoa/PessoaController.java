@@ -11,8 +11,6 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import org.example.listadeatividades3.Album;
-import org.example.listadeatividades3.OuvirAlbumController;
 
 import java.io.IOException;
 

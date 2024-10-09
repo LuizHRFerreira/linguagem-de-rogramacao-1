@@ -1,12 +1,9 @@
-package org.example.listadeatividades3;
+package org.example.listadeatividades3.Album;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.stage.Modality;
-import javafx.stage.Stage;
 
 public class OuvirAlbumController {
 

@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="573.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.listadeatividades3.AlbumController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="573.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.listadeatividades3.Album.AlbumController">
    <children>
       <Button fx:id="cadastrar_album" layoutX="388.0" layoutY="432.0" mnemonicParsing="false" onAction="#cadastrarAlbum" prefHeight="25.0" prefWidth="141.0" text="Cadastrar" />
       <Label fx:id="Titulo" layoutX="183.0" layoutY="35.0" text="Cadastrar Album" textAlignment="CENTER">

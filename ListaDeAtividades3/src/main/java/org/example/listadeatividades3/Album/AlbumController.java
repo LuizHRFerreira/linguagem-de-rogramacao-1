@@ -1,4 +1,4 @@
-package org.example.listadeatividades3;
+package org.example.listadeatividades3.Album;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -40,7 +40,7 @@ public class AlbumController {
         Album album = new Album(nome_album.getText(), interprete_album.getText(), data_album.getValue().toString());
 
         // Carrega o FXML da tela OuvirAlbum
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ouvir_album_view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/org/example/listadeatividades3/ouvir_album_view.fxml"));
         Parent root = fxmlLoader.load();
 
         // Obtém o controller do FXML

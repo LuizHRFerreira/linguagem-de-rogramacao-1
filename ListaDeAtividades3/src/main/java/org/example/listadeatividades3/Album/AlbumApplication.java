@@ -1,4 +1,4 @@
-package org.example.listadeatividades3;
+package org.example.listadeatividades3.Album;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -14,7 +14,6 @@ public class AlbumApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        //FXMLLoader fxmlLoader = new FXMLLoader(AlbumApplication.class.getResource("Album-view.fxml"));
         scene = new Scene(loadFXML("Album-view"), 573, 482);
         stage.setTitle("Album");
         stage.setScene(scene);
@@ -26,7 +25,7 @@ public class AlbumApplication extends Application {
     }
 
     private static Parent loadFXML(String fxml) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(AlbumApplication.class.getResource(fxml + ".fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(AlbumApplication.class.getResource("/org/example/listadeatividades3/" + fxml + ".fxml"));
         return fxmlLoader.load();
     }
 

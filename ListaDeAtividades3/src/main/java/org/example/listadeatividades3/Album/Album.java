@@ -1,7 +1,5 @@
-package org.example.listadeatividades3;
+package org.example.listadeatividades3.Album;
 
-
-import java.util.Scanner;
 
 public class Album {
 
