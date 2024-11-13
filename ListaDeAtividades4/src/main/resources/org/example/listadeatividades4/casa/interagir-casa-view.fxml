@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="284.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.listadeatividades4.Casa.InteragirCasa">
+   <children>
+      <Label fx:id="Titulo" layoutX="114.0" layoutY="39.0" text="Interagir casa" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="tamanho_casa" layoutX="82.0" layoutY="111.0" text="tamanho_casa" />
+      <Label fx:id="cor_casa" layoutX="48.0" layoutY="144.0" text="cor_casa" />
+      <Label fx:id="funcionalidade_casa" layoutX="25.0" layoutY="194.0" text="func_casa" />
+      <Label layoutX="24.0" layoutY="111.0" text="Tamanho:" />
+      <Label layoutX="24.0" layoutY="143.0" text="Cor:" />
+      <Label layoutX="24.0" layoutY="174.0" text="Funcionalidade do edificio: " />
+      <Button fx:id="entrar_casa" layoutX="180.0" layoutY="107.0" mnemonicParsing="false" onAction="#entrar" prefHeight="25.0" prefWidth="190.0" text="Entrar" />
+      <Button fx:id="sair_casa" layoutX="180.0" layoutY="151.0" mnemonicParsing="false" onAction="#sair" prefHeight="25.0" prefWidth="190.0" text="Sair" />
+      <Button fx:id="campainha_casa" layoutX="180.0" layoutY="190.0" mnemonicParsing="false" onAction="#campainha" prefHeight="25.0" prefWidth="190.0" text="Tocar Campainha" />
+      <Label fx:id="resul" layoutX="27.0" layoutY="243.0" prefHeight="17.0" prefWidth="343.0" />
+   </children>
+</Pane>

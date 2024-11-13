@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="573.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.listadeatividades4.Casa.CasaController">
+   <children>
+      <Button fx:id="cadastrar_casa" layoutX="388.0" layoutY="432.0" mnemonicParsing="false" onAction="#cadastrarCasa" prefHeight="25.0" prefWidth="141.0" text="Cadastrar" />
+      <Label fx:id="Titulo" layoutX="192.0" layoutY="35.0" text="Cadastrar Casa" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="250.0" fitWidth="428.0" layoutX="85.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Casa..JPG" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tamanho_casa" layoutX="159.0" layoutY="342.0" prefHeight="25.0" prefWidth="363.0" />
+      <TextField fx:id="funcionalidade_casa" layoutX="325.0" layoutY="384.0" prefHeight="25.0" prefWidth="197.0" />
+      <Label layoutX="236.0" layoutY="388.0" text="Funcionalidade" />
+      <Label layoutX="61.0" layoutY="346.0" text="Tamanho em m²" />
+      <Label layoutX="61.0" layoutY="377.0" prefHeight="38.0" prefWidth="26.0" text="Cor" textAlignment="RIGHT" wrapText="true" />
+      <TextField fx:id="cor_casa" layoutX="94.0" layoutY="384.0" prefHeight="25.0" prefWidth="134.0" />
+   </children>
+</Pane>

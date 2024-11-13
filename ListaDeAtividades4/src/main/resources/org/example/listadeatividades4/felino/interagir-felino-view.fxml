@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="284.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.listadeatividades4.Felino.InteragirFelinoController">
+   <children>
+      <Label fx:id="Titulo" layoutX="70.0" layoutY="36.0" text="Interagir com felino" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="especie_felino" layoutX="70.0" layoutY="111.0" text="especie_felino" />
+      <Label fx:id="tamanho_felino" layoutX="78.0" layoutY="144.0" text="tamanho_felino" />
+      <Label fx:id="cor_felino" layoutX="52.0" layoutY="174.0" text="cor_felino" />
+      <Label layoutX="24.0" layoutY="111.0" text="Especie:" />
+      <Label layoutX="24.0" layoutY="143.0" text="Tamanho:" />
+      <Label layoutX="27.0" layoutY="174.0" text="Cor:" />
+      <Button fx:id="dormir_felino" layoutX="180.0" layoutY="107.0" mnemonicParsing="false" onAction="#dormirFelino" prefHeight="25.0" prefWidth="190.0" text="Dormir" />
+      <Button fx:id="comer_felino" layoutX="180.0" layoutY="151.0" mnemonicParsing="false" onAction="#comerFelino" prefHeight="25.0" prefWidth="190.0" text="Comer" />
+      <Button fx:id="alongar_felino" layoutX="180.0" layoutY="190.0" mnemonicParsing="false" onAction="#alongarFelino" prefHeight="25.0" prefWidth="190.0" text="Alongar" />
+      <Label fx:id="resul" layoutX="27.0" layoutY="243.0" prefHeight="17.0" prefWidth="343.0" />
+   </children>
+</Pane>
