@@ -14,7 +14,7 @@ public class AlbumApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("Album-view"), 573, 482);
+        scene = new Scene(loadFXML("album-view"), 573, 248);
         stage.setTitle("Album");
         stage.setScene(scene);
         stage.show();

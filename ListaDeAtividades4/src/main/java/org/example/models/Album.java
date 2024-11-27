@@ -9,26 +9,13 @@ public class Album {
     private String nome;
     private String Interprete;
     private LocalDate dataDelancamento;
+    private String capa;
 
-    public Album(String nome, LocalDate dataDelancamento, String interprete) {
+    public Album(String nome, LocalDate dataDelancamento, String interprete, String capa) {
         this.nome = nome;
         this.dataDelancamento = dataDelancamento;
         this.Interprete = interprete;
-    }
-
-    public static String ouvir() {
-
-        return "Começou a tocar o álbum";
-    }
-
-    public static String pausar() {
-
-        return "Pausou a música";
-    }
-
-    public static String baixar() {
-
-        return "O álbum está sendo baixado";
+        this.capa = capa;
     }
 
     public String getTitulo() {
@@ -41,6 +28,10 @@ public class Album {
 
     public LocalDate getDataLancamento() {
         return dataDelancamento;
+    }
+
+    public String getCapa() {
+        return capa;
     }
 
 }
